@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://127.0.0.1:8080/sitemap.xml
+Sitemap: http://127.0.0.1:1212/sitemap.xml

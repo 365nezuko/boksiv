@@ -833,7 +833,7 @@ frame {
   padding: 90px 15px 55px;
 }
 .about-bg {
-  background: url('../images/about-bg.jpg') center center no-repeat;
+  background: url('../images/banner4.jpeg') center center no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;
@@ -1196,7 +1196,7 @@ frame {
 -----------------------------------------*/
 .booking {
   padding: 70px 0;
-  background: url('../images/book_bg.jpg') center center no-repeat;
+  background: url('../images/banner5.jpeg') center center no-repeat;
   background-size: cover;
 }
 .booking-form-item {
@@ -1304,7 +1304,7 @@ frame {
 .numbers {
   text-align: center;
   color: #fff;
-  background: url('../images/numbers-bg.jpg') center center no-repeat;
+  background: url('../images/banner6.jpeg') center center no-repeat;
   background-size: cover;
 }
 .numbers .section-title {
