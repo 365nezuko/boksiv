@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://optimistic-hamilton-803793.netlify.app/"
 title = "Dr. Tshimbalanga"
 
 # Whether to automatically compile all Sass files in the sass directory
