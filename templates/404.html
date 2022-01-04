@@ -10,15 +10,15 @@
 
 <title>404 Page Not Found</title>
 
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-<link rel="stylesheet" type="text/css" href="css/master.css" />
+<link rel="shortcut icon" href="{{ get_url(path="images/favicon.ico") | safe }}">
+<link rel="apple-touch-icon" href="{{ get_url(path="images/apple-touch-icon.png") | safe }}">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ get_url(path="images/apple-touch-icon-72x72.png") | safe }}">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ get_url(path="images/apple-touch-icon-114x114.png") | safe }}">
+<link rel="stylesheet" type="text/css" href="{{ get_url(path="css/master.css") | safe }}" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-<div class="preloader" id="preloader"> <img src="images/preloader.gif" alt="" /> </div>
+<div class="preloader" id="preloader"> <img src="{{ get_url(path="images/preloader.gif") | safe }}" alt="" /> </div>
 
 {% include "partials/topbar.html" %}
 
@@ -27,7 +27,7 @@
 		<div class="row"> 
 			
 			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
-				<div class="header-logo"> <a href="/"><img src="images/logo.svg" alt="" />
+				<div class="header-logo"> <a href="/"><img src="{{ get_url(path="images/logo.svg") | safe }}" alt="" />
 					<span class="bold600 color-child-6">Dr.</span>
 					<span class="color-child-5">Tshimbalnaga</span>
 					</a> </div>
@@ -78,7 +78,7 @@
 {% include "partials/footer.html" %}
 
 <div class="totop" id="totop"> <i class="fa fa-angle-up"></i> </div>
-<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="{{ get_url(path="css/responsive.css") | safe }}" />
 
 {% include "partials/scripts.html" %}
 </body>
